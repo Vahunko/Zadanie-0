@@ -4,9 +4,11 @@
         <title>Search</title>
     </head>
     <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <form action="https://www.google.com/search" method="get">
+            <label for="search-input">Поиск в Google:</label>
+            <input type="text" id="search-input" name="q" placeholder="Введите поисковый запрос">
+            <button type="submit">Поиск</button>
+            <button type="submit" name="btnI">Мне повезет!</button>
+          </form>
     </body>
 </html>
